@@ -24,7 +24,7 @@ func TestTimes(t *testing.T) {
 	result := times(2, 2)
 
 	if result != 4 {
-		t.Error("The result must be 4")
+		t.Error("The result must be 4.")
 	}
 }
 
