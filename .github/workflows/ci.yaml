@@ -5,7 +5,7 @@ on:
       - develop
 
 jobs:
-  run-cli:
+  run-ci:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
